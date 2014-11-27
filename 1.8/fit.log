@@ -1,0 +1,54 @@
+
+
+*******************************************************************************
+Wed Nov 19 19:22:06 2014
+
+
+FIT:    data read from "daten.txt"
+BREAK:          bad data on line 1 of datafile
+
+
+
+*******************************************************************************
+Wed Nov 19 19:22:21 2014
+
+
+FIT:    data read from "daten.txt"
+        #datapoints = 23
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 289263            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-005
+ lambda	  : 9.11043
+
+initial set of free parameter values
+
+m               = 1
+n               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 53272.7
+rel. change during last iteration : -5.6332e-008
+
+degrees of freedom    (FIT_NDF)                        : 21
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 50.3666
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2536.79
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = -3.52767         +/- 1.583        (44.88%)
+n               = 147.543          +/- 20.34        (13.78%)
+
+
+correlation matrix of the fit parameters:
+
+               m      n      
+m               1.000 
+n              -0.856  1.000 

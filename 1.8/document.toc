@@ -1,0 +1,8 @@
+\select@language {german}
+\contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}
+\contentsline {section}{\numberline {2}Versuchsdurchf\"uhrung}{3}
+\contentsline {subsection}{\numberline {2.1}Beobachtung}{4}
+\contentsline {section}{\numberline {3}Auswertung}{4}
+\contentsline {subsection}{\numberline {3.1}Systematische Fehlerbetrachung}{5}
+\contentsline {section}{\numberline {4}Anhang}{6}
+\contentsline {section}{\numberline {5}Literaturverzeichnis}{6}
