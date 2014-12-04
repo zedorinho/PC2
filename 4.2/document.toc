@@ -1,0 +1,8 @@
+\select@language {german}
+\contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}
+\contentsline {subsection}{\numberline {1.1}Das Daniell-Element}{3}
+\contentsline {subsection}{\numberline {1.2}Die elektromotorische Kraft}{3}
+\contentsline {section}{\numberline {2}Versuchsdurchf\"uhrung}{4}
+\contentsline {section}{\numberline {3}Auswertung}{5}
+\contentsline {section}{\numberline {4}Anhang}{6}
+\contentsline {section}{\numberline {5}Literaturverzeichnis}{6}

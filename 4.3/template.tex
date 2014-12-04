@@ -1,0 +1,107 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+%
+% -----------------------------------------------------
+% LaTeX-Vorlage
+%
+% LABREPORT v1
+% von Markus Knösel frei nach KOMA-Script-Klassen
+% -----------------------------------------------------
+%
+\documentclass[11pt,titlepage]{scrartcl}		% Schriftgröße festlegen, standard 10pt 
+%
+\usepackage[latin1]{inputenc}				% input encoding für vim/utf8/Umlaute
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} 
+%
+% -----------------------------------------------------
+\usepackage{geometry} 					% legt die Blattgröße und Randabstände fest
+\geometry{a4paper}
+\geometry{margin=3cm,top=2.5cm,bottom=2.5cm}
+%
+%
+%
+%
+%
+%
+% -----------------------------------------------------
+\usepackage{graphicx} 					% support the \includegraphics command and options
+\usepackage[parfill]{parskip}				% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{booktabs}					% for much better looking tables
+%\usepackage{array}					% for better arrays (eg matrices) in maths
+\usepackage{paralist}					% very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim}					% adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig}					% make it possible to include more than one captioned figure/table in a single float
+\usepackage{color}
+\usepackage[german]{babel}
+\usepackage{units}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{icomma,units}
+\usepackage{enumerate}
+\usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
+\usepackage{chemmacros}
+\usepackage{chemfig}
+\usepackage{PSTricks}
+\usepackage{epstopdf}
+\usepackage[ngerman=ngerman-x-latest]{hyphsubst}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+%
+%
+%
+%
+% ---------- HEADERS & FOOTERS ------------------------
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+%\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{Markus Knösel}\chead{}\rhead{\textsc{Physikalische Chemie II}}
+%\lfoot{}\cfoot{\thepage}\rfoot{}
+%
+%
+%
+%
+% ---------- SECTION TITLE APPEARANCE -----------------
+\usepackage{sectsty}
+\definecolor{cyan}{RGB}{30,103,182}      % hellgruener Rahmen
+\allsectionsfont{\mdseries\upshape\textcolor{cyan}} % (See the fntguide.pdf for font help)
+%
+%
+%
+%
+% ---------- ToC (table of contents) APPEARANCE -------
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+% \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+% \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+%
+%
+%
+%
+% ---------- TITLEPAGE DETAILS ------------------------
+\addtokomafont{subject}{\sc}
+\setkomafont{title}{\normalfont}
+	\subject{Amperometrische Fällungstitration von Bariumhydroxid mit Schwefelsäure}
+	\title{Versuchsprotokoll}
+	\subtitle{3812 - Praktikum Physikalische Chemie II}
+	\author{\normalfont Markus Knösel \\ Matrikelnr. 23 94 86 }
+	\date{durchgeführt am 14.11.14} % Activate to display a given date or no date (if empty),
+\publishers{\normalsize \includegraphics[width=4cm]{unilogo} \\ Fachbereich IV \\ Abteilung für Chemie}
+%
+%
+%
+%
+% ---------- DOCUMENT ---------------------------------
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\newpage
+%
+%% \section*{\abstractname}
+%% Blabla
+%
+\section{Literaturverzeichnis}
+%
+\textsc{Crc (1980-1981)}: \textit{Handbook of Chemistry and Physics}, 61st. Edition, CRC Press, Inc., Boca Raton, USA
+%
+\end{document}
